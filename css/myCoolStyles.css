@@ -1,10 +1,16 @@
 body {
-    background-color: lightblue;
+    background-color: lightgrey;
 }
 
 h1 {
     color: red;
+    padding-left: 15px;
 
+}
+
+img {
+    display: block;
+    margin: auto;
 }
 
 .main {
@@ -13,12 +19,13 @@ h1 {
     padding: 20px;
 }
 
-img {
-    display: block;
-    margin: auto;
-}
-
 #mugText {
     text-align: center;
     font-weight: bold;
+}
+
+.divider {
+    background-color: black;
+    height: 2px;
+    padding-bottom: 5px:
 }
